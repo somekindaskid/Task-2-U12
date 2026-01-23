@@ -5,6 +5,8 @@ from pygame.locals import *
 #initialising pygame
 pygame.init()
 
+counter = 9
+
 #set up game window
 screen = pygame.display.set_mode((400, 300))
 
@@ -31,4 +33,3 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
-
